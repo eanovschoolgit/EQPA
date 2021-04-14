@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="Panel1" x="0" y="0" width="804" height="266"
+             itemColour="3036842695" itemColour2="4160764761" textColour="16711680"
+             bgColour="13172736">
+    <Component type="ScriptImage" id="Image1" x="0" y="0" parentComponent="Panel1"
+               width="804" height="266" fileName="{PROJECT_FOLDER}back4.png"/>
+  </Component>
+  <Component type="ScriptSlider" id="LOWBOOST" x="195" y="26" numStrips="128"
+             width="94" height="90" filmstripImage="{PROJECT_FOLDER}128analog2.png"
+             scaleFactor="0.52" max="14"/>
+  <Component type="ScriptSlider" id="HIGHATTEN" x="530" y="27" numStrips="128"
+             width="81" height="80" filmstripImage="{PROJECT_FOLDER}128analog2.png"
+             scaleFactor="0.52" max="14"/>
+  <Component type="ScriptSlider" id="LOWATTEN" x="294" y="25" numStrips="128"
+             width="100" height="105" filmstripImage="{PROJECT_FOLDER}128analog2.png"
+             scaleFactor="0.52" max="14"/>
+  <Component type="ScriptSlider" id="BANDWIDTH" x="364" y="127" numStrips="128"
+             width="79" height="78" filmstripImage="{PROJECT_FOLDER}128analog2.png"
+             scaleFactor="0.52" macroControl="Macro 1" max="30" middlePosition="15"/>
+  <Component type="ScriptSlider" id="HIGHBOSST" x="432" y="27" numStrips="128"
+             width="81" height="78" filmstripImage="{PROJECT_FOLDER}128analog2.png"
+             scaleFactor="0.52" max="14"/>
+  <Component type="ScriptSlider" id="LOWFREQ" x="246" y="129" numStrips="4"
+             width="83" height="77" scaleFactor="0.49" max="3" stepSize="1"
+             filmstripImage="{PROJECT_FOLDER}selektor4.png" defaultValue="1"/>
+  <Component type="ScriptSlider" id="HIGHFREQ" x="483" y="128" numStrips="7"
+             width="76" height="72" max="6" stepSize="1" scaleFactor="0.49"
+             filmstripImage="{PROJECT_FOLDER}selektor7.png" defaultValue="4"/>
+  <Component type="ScriptSlider" id="ATTENSEL" x="635" y="33" numStrips="3"
+             width="83" height="77" max="3" stepSize="1" macroControl="No MacroControl"
+             processorId="EQ2" parameterId="Q" scaleFactor="0.49" filmstripImage="{PROJECT_FOLDER}selektor3ok.png"
+             defaultValue="2"/>
+  <Component type="ScriptButton" id="ONOFF" x="648" y="141" filmstripImage="{PROJECT_FOLDER}onoff2.png"
+             width="54" height="49" scaleFactor="0.35"/>
+  <Component type="ScriptComboBox" id="CBBASS" x="221" y="193" max="4" items="20&#10;30&#10;60&#10;100&#10;"
+             width="99" height="23" visible="0"/>
+  <Component type="ScriptComboBox" id="CBhi" x="477" y="202" max="7" items="3000&#10;4000&#10;5000&#10;8000&#10;10000&#10;12000&#10;16000&#10;"
+             width="99" height="23" visible="0"/>
+  <Component type="ScriptButton" id="ONOFF1" x="0" y="96" processorId="EQ"
+             parameterId="Enabled" visible="0"/>
+  <Component type="ScriptButton" id="ONOFF2" x="0" y="128" processorId="EQ1"
+             parameterId="Enabled" visible="0"/>
+  <Component type="ScriptButton" id="ONOFF3" x="0" y="158" processorId="EQ2"
+             parameterId="Enabled" visible="0"/>
+  <Component type="ScriptImage" id="Image2" x="33" y="77" width="135" height="73"
+             fileName="{PROJECT_FOLDER}logo-eanov.png" alpha="0.8"/>
+  <Component type="ScriptButton" id="Button1" x="618" y="102" width="44" height="43"
+             filmstripImage="{PROJECT_FOLDER}onoffledok.png" scaleFactor="0.3"/>
+  <Component type="ScriptPanel" id="Panel2" x="614" y="98" width="52" height="46"
+             bgColour="16777215" itemColour="0" itemColour2="0" textColour="16777215"/>
+</ContentProperties>
