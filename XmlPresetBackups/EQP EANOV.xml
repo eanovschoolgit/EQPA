@@ -17,8 +17,7 @@
             <Control type="ScriptSlider" id="LOWFREQ" value="1"/>
             <Control type="ScriptSlider" id="HIGHFREQ" value="4"/>
             <Control type="ScriptSlider" id="ATTENSEL" value="2"/>
-            <Control type="ScriptButton" id="ONOFF" value="1"/>
-            <Control type="ScriptComboBox" id="CBBASS" value="2"/>
+            <Control type="alue="2"/
             <Control type="ScriptComboBox" id="CBhi" value="5"/>
             <Control type="ScriptButton" id="ONOFF1" value="1"/>
             <Control type="ScriptButton" id="ONOFF2" value="1"/>
@@ -44,9 +43,7 @@
           <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
         </Processor>
         <Processor Type="CurveEq" ID="EQ1" Bypassed="0" NumFilters="1" Band0="0"
-                   Band1="10000" Band2="0.3" Band3="1" Band4="4" FFTEnabled="0">
-          <ChildProcessors/>
-          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+                   Band1="10000" Band2="0.3" Band3="1" Band4="4" FFTEnabled="0"
         </Processor>
         <Processor Type="CurveEq" ID="EQ2" Bypassed="0" NumFilters="1" Band0="0"
                    Band1="10000" Band2="2" Band3="1" Band4="4" FFTEnabled="0">
@@ -54,8 +51,7 @@
           <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
         </Processor>
       </ChildProcessors>
-    </Processor>
-    <Processor Type="AudioLooper" ID="Audio Loop Player1" Bypassed="0" Gain="0.25"
+ 
                Balance="0" VoiceLimit="256" KillFadeTime="20" IconColour="0"
                SyncMode="1" PitchTracking="0" LoopEnabled="1" RootNote="64"
                SampleStartMod="0" Reversed="0" FileName="C:\Users\lewis\Desktop\drums test.wav"
@@ -91,8 +87,7 @@
   <macro_controls>
     <macro name="Macro 1" value="0.0" midi_cc="-1">
       <controlled_parameter id="EQ" parameter="2" parameter_name="Q 0" min="0.1" max="8.0"
-                            low="0.1" high="2.1" inverted="0" readonly="1"/>
-      <controlled_parameter id="EQ1" parameter="2" parameter_name="Q 0" min="0.1" max="8.0"
+                        
                             low="0.1" high="2.2" inverted="0" readonly="1"/>
     </macro>
     <macro name="Macro 2" value="0.0" midi_cc="-1"/>
