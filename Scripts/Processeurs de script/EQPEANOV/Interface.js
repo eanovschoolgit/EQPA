@@ -1,7 +1,7 @@
 Content.makeFrontInterface(800, 225);
 
 
-const var LOWBOOST = Content.getComponent("LOWBOOST");
+const var LOWBOOST = Content.getComponent("LOWOST"
 const var EQ = Synth.getEffect("EQ");
 const var LOWATTEN = Content.getComponent("LOWATTEN");
 const var LOWFREQ = Content.getComponent("LOWFREQ");
@@ -76,7 +76,7 @@ Content.getComponent("LOWFREQ").setControlCallback(onLOWFREQControl);
 
 
 // hight bosst //
-inline function onHIGHBOSSTControl(component, value)
+inline function onHIGHBOSSTControl(component, value
 {
 	local index = EQ1.Gain + 0 * EQ1.BandOffset;
 	EQ1.setAttribute(index, value);
@@ -89,7 +89,7 @@ Content.getComponent("HIGHBOSST").setControlCallback(onHIGHBOSSTControl);
 inline function onHIGHATTENControl(component, value)
 {
 
-	local index = EQ2.Gain + 0 * EQ2.BandOffset;
+	local index = EQ2.Gain + 0 * EQ2.BandOffset;Attriuteb
 	EQ2.setAttribute(index, -value);
 };
 
